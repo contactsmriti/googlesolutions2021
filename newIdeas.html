@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>New Ideas-Discussion</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styleIdeas.css">
+        <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <table class="header">
+            <tr>
+                <td align="center">
+                    <table width="1000" border="0" align="center" cellpadding="1" cellspacing="1" >
+                        <tr>
+                            <td width="140"> <font face="Pacifico, cursive" color="white" ><a href="index.html">Home</a> </td>
+                            <td width="140"> <font face="Pacifico, cursive" color="white" >Motivation</td>
+                            <td width="140"> <font face="Pacifico, cursive" color="white" ><a href="education.html">Education</a> </td>
+                            <td width="140"> <font face="Pacifico, cursive" color="white" >Donation</td>
+                            <td width="140"> <font face="Pacifico, cursive" color="white" >Hunger</td>
+                            <td width="140"> <font face="Pacifico, cursive" color="white" >Volunteer</td>
+                            <td class="aboutborder" width="140"> <font face="Pacifico, cursive" color="white" >About Us</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <div>
+            <h1 class="intro"><div class="title">New Ideas/Discussion</div></h1>
+        </div>
+        <div class="heading">
+            
+            <h2>Any Ideas in mind?<br><a href"Share_Ideas.html>Share it here:</a></h2>
+            <button><a href="https://form.jotform.com/210880891762059"> New Idea &#128161;</a></button>
+            
+        </div>
+        <div class="img-collage">
+            <img src="collage.jpeg" alt="collage-of-poor-people-pictures">
+        </div>
+        <div class="idea">
+            <p><h2> What we have in mind?</h2><br></p>
+            <p>The main motive is to provide food and education to the poor and for that we have included sections like donation,volunteer in our website.</p>
+            <ul>
+                <li><h3>Volunteer</h3><p>People can volunteer as teacher to educate the poor people who cannot affort education..</p>
+                <p>People can provide land or space where the teachers can teach.</p>
+                <p>They can also help in delivering food from places or events where there was left over food after the function.</p></li>
+                <li><h3>Donation</h3><p>People can donate whatever they wish to like food,money,clothes,books etc.</p></li>
+            </ul>
+            
+        </div>
+        <div>
+                <h1 class="intro2"><div class="discuss"> Discussion</div></h1>
+        </div>
+        <p class="description">The discusion forum is created to provide an oportunity to people in order to discuss issues and their solutions to it.
+            We also aim at spreading awareness about different issues and encourage innovative solutions through these discussion forums as a result of repetitive discussions and refined thinking.</p>
+        </p>
+        <div>
+            <img class="discussion-img" src="discussion2.jpg" alt="discussion-img">
+        </div>
+        <div id="respond">
+
+            <h3>Leave a Comment</h3>
+            
+          
+            <form action="post_comment.php" method="post" id="commentform">
+          
+              <label for="comment_author" >Your name:</label>
+              <input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required" size="56"><br><br>
+          
+              <label for="email" >Your email:</label>
+              <input type="email" name="email" id="email" value="" tabindex="2" required="required" size="56"><br><br>
+          
+              <label for="comment" class="required">Your message:</label>
+              <textarea name="comment" id="comment" rows="10" tabindex="4"  required="required" class="textbox"></textarea><br><br>
+          
+              <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
+              <input name="submit" type="submit" value="Submit comment" class="submit-button"/>
+              <input type="hidden" name="comment_post_ID" value="<?php echo($comment_post_ID); ?>" id="comment_post_ID" />
+          
+            </form>
+          </div>
+          <h4 class="cont">The responsiveness of the discussion forum is under progress.</h4>
+          
+          <div class="footer">
+            <a class="footer-linkbtn" align="center"  href="mailto:instigatingdestitution@gmail.com">Contact Team </a>
+            <p>©2021 "Instigating Destitution"Team Created By: Vaishnavi, Tejas, Pragati and Smriti</p>
+        </div>
+    </body>
+</html>
