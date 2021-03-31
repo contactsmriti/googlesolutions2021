@@ -1,0 +1,197 @@
+.quote{
+    font-family: 'Berkshire Swash', cursive;
+    margin: 0;
+    font-size: 50px;
+}
+
+body{
+    background-color: #d9faff;
+    margin: 30px;
+}
+
+h1{
+    color: darkgreen;
+}
+
+p{
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 15px;
+    display: inline;
+}
+
+.div0{
+    width: 100%;
+    height: 230px;
+    background-color: #ccffbd;
+    background-image: url(https://www.unwater.org/app/uploads/2019/07/58648934bf.jpg);
+    background-repeat: no-repeat;
+    background-position: 1170px;
+    padding-top: 100px;
+    z-index: 50;
+}
+
+.div1{
+    display: inline-block;
+    height: 100px;
+    width: 100%;
+}
+
+.div2{
+    display: inline-block;
+    height: 500px;
+    width: 1000px;
+    position: relative;
+    left: 150px;
+}
+
+.mh{
+    text-decoration: underline;
+    padding-top: 300px;
+    padding-right: 300px;
+    font-size: 75px;
+    font-family: 'Lobster', cursive;
+}
+
+.div3{
+    display: inline-block;
+    background-image: url(https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/bakeryandsnacks.com/article/2020/09/25/kellogg-s-brakes-and-this-saves-lives-on-a-mission-to-slash-food-waste-and-fight-childhood-hunger/11797486-1-eng-GB/Kellogg-s-Brakes-and-This-Saves-Lives-on-a-mission-to-slash-food-waste-and-fight-childhood-hunger_wrbm_medium.jpg);
+    height: 250px;
+    width: 398px;
+    position: relative;
+    bottom: 400px;
+    left: 1300px;
+    border-radius: 15%;
+}
+
+.btn{
+    background: #6cf5bc;
+    background-image: -webkit-linear-gradient(top, #6cf5bc, #5bacde);
+    background-image: -moz-linear-gradient(top, #6cf5bc, #5bacde);
+    background-image: -ms-linear-gradient(top, #6cf5bc, #5bacde);
+    background-image: -o-linear-gradient(top, #6cf5bc, #5bacde);
+    background-image: linear-gradient(to bottom, #6cf5bc, #5bacde);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Roboto', sans-serif;
+    color: #f80874;
+    font-size: 20px;
+    padding: 10px 5px 10px 8px;
+    text-decoration: none;
+    height: 35px;
+    width: 200px;
+    position: relative;
+    left: 800px;
+    bottom: 100px;
+    text-align: center;
+}
+  
+.btn:hover {
+    background: #f0f04f;
+    background-image: -webkit-linear-gradient(top, #f0f04f, #80f280);
+    background-image: -moz-linear-gradient(top, #f0f04f, #80f280);
+    background-image: -ms-linear-gradient(top, #f0f04f, #80f280);
+    background-image: -o-linear-gradient(top, #f0f04f, #80f280);
+    background-image: linear-gradient(to bottom, #f0f04f, #80f280);
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: antiquewhite;
+    color: tomato;
+}
+
+a:link{
+    color: rgb(106, 177, 240);
+    text-decoration: none;
+}
+
+a:visited{
+    color: #f80874;
+    text-decoration: none;
+}
+
+.footer{
+    font-size: 20px;
+    background-color: #3d84a8;
+    padding: 20px 0 20px 0;
+    border-top: solid #ddd 3px;
+}
+
+.footer a{
+    color: #ffffff;
+}
+
+.footer p{
+    color: #57ffea;
+}
+
+.footer-linkbtn{
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 11px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 13px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.footer-linkbtn:hover{
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.header{
+    background-color:#3d84a8;
+    width: 100%; 
+    height: 120px; 
+}  
+
+.header table{
+    height: 24px;
+    vertical-align: middle;
+}
+
+.header  td{
+    border-right : 2px solid rgba(186, 230, 236, 0.603); 
+    font-size: 24px;
+    text-align: center;
+ 
+}
+
+.header .aboutborder{
+    border-right: 0px;
+}  
+
+.header table td a{
+    text-decoration: none;
+} 
+
+.header a:link{
+    color: white;
+}
+  
+.header a:visited{
+    color: white;
+}
+  
+.header a:hover{
+    color: #33f1da;
+}
+  
+.header a:active{
+    color: #efda40eb;
+}
