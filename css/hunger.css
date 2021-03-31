@@ -27,7 +27,7 @@ p{
     background-image: url(https://www.unwater.org/app/uploads/2019/07/58648934bf.jpg);
     background-repeat: no-repeat;
     background-position: 1170px;
-    padding-top: 100px;
+    padding-top : 100px;
     z-index: 50;
 }
 
@@ -47,8 +47,6 @@ p{
 
 .mh{
     text-decoration: underline;
-    padding-top: 300px;
-    padding-right: 300px;
     font-size: 75px;
     font-family: 'Lobster', cursive;
 }
