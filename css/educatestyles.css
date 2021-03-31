@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    background-color: #d9faff;
+    text-align: center;
+    
+}
+.header{
+    background-color:#3d84a8;
+    width: 100%; 
+    height: 120px; 
+}  
+.header table{
+    height: 24px;
+    vertical-align: middle;
+}
+.header  td{
+    border-right : 2px solid rgba(186, 230, 236, 0.603); 
+    font-size: 24px;
+    text-align: center;
+ 
+}
+.header .aboutborder{
+    border-right: 0px;
+}  
+.header table td a {
+    text-decoration: none;
+} 
+.header a:link {
+    color: white;
+  }
+  
+.header a:visited {
+    color: white;
+  }
+  
+.header a:hover {
+    color: #33f1da;
+  }
+  
+.header a:active {
+    color: #efda40eb;
+  }   
+.pencil{
+
+    background-image:url(https://i.ibb.co/k1qvTdm/pencil.jpg) ;
+    background-repeat: repeat-x;
+    width: 100%;
+    height:300px;
+    
+    position: fixed;
+}
+
+.donatebtn a {
+    background: #d93434;
+    background-image: -webkit-linear-gradient(top, #d93434, #e80046);
+    background-image: -moz-linear-gradient(top, #d93434, #e80046);
+    background-image: -ms-linear-gradient(top, #d93434, #e80046);
+    background-image: -o-linear-gradient(top, #d93434, #e80046);
+    background-image: linear-gradient(to bottom, #d93434, #e80046);
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: 'Russo One', sans-serif;
+    color: #ffffff;
+    width: 10%;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+
+    position: fixed;
+    right: -2px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 35px;
+    border-radius: 20px 0px 0px 38px;
+  }
+  
+  .donatebtn a:hover {
+    background: #fc3c3c;
+    background-image: -webkit-linear-gradient(top, #fc3c3c, #cf7070);
+    background-image: -moz-linear-gradient(top, #fc3c3c, #cf7070);
+    background-image: -ms-linear-gradient(top, #fc3c3c, #cf7070);
+    background-image: -o-linear-gradient(top, #fc3c3c, #cf7070);
+    background-image: linear-gradient(to bottom, #fc3c3c, #cf7070);
+    text-decoration: none;
+  }
+.green-board{
+    background-image:url(https://i.ibb.co/n1mVrK0/green-board.jpg) ;
+    background-repeat: repeat-x;
+    width: 100%;
+    height:313px;
+  }
+  hr {
+      border: dotted;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      width: 7%;
+      border-width: 8px;
+      border-color: lightslategrey;
+  }
+  .three-kids {
+     
+      border-radius: 50%;
+      position: relative;
+      top: -66px;
+      width: 17%;
+  }
+  
+  h1 {
+    font-family: 'Fredericka the Great', cursive;
+  }
+
+  h2 {
+      color: #5068a9;
+      font-family: 'Lobster', cursive;
+  }
+  p {
+      color: #1c9d8d;
+      font-family: 'New Tegomin', serif;
+  }
+  ul {
+    color: #0088ff;
+    font-family: 'Dancing Script', cursive;
+    font-size: 17px;
+  }
+.middle-container{
+    text-align: center;
+    margin: 100px 0;
+    
+}
+.middle-container img{
+    width: 25%;
+    border-radius: 50%;
+}
+.whyeducationimg {
+    float:left;
+    margin-right: 30px;
+}
+.poorgirlimg {
+    float:right;
+    margin-left: 30px;
+}
+.impacteducationimg{
+    float:left;
+    margin-right: 30px;
+}
+.classroomimg {
+    float:right;
+    margin-left: 30px;
+}
+
+.whyeducation {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.importantforpoor {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: right;
+    line-height: 2;
+}
+.impacteducation {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.ourwork {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: right;
+    line-height: 2;
+}
+
+.footer{
+    font-size: 20px;
+    background-color: #3d84a8;
+    padding: 20px 0 20px 0;
+    border-top: solid #ddd 3px;
+}
+.footer p {
+    color: #57ffea;
+}
+.footer-linkbtn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 11px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 13px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .footer-linkbtn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
